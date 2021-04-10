@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title> A simple form</title>
+	</head>
+	
+	<body>
+		<h1>Course Registration</h1>
+		<form>
+			<fieldset>
+			<legend>Personal Information</legend>
+			<b> First Name: </b><input type="text" name="textbox1" size="40">
+			<br/> <br/>
+			<b>Last Name: </b><input type="text" name="textbox2">
+			<br/> <br/>
+			<b>Password: </b> <input type="password" name="pwd">
+			<br/><br/>
+			
+			<b> Gender: </b> <input type="radio" name="gender" value="male" >Male
+							<input type="radio" name="gender" value="female" checked >Female
+							<input type="radio" name="gender" value="others" >Others
+			<br/><br/>
+			
+			<b>Religion: </b> <input type="checkbox" name="c1"value="islam">Islam
+								<input type="checkbox" name="c2"value="hindu">Hindu
+								<input type="checkbox" name="c3"value="others">Others
+			</fieldset>
+			<br/><br/>
+			<b>Department : </b>
+			<select name="department">
+				<option>CSE</option>
+				<option>BBA</option>
+				<option>LLB</option>
+				<option>ENG</option>
+			</select>
+			
+			<p>  Comment </P>
+			<textarea name="t1" rows="7" cols="40">
+				
+			</textarea>
+			<br/><br/>
+			
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+			
+		</form>
+		
+	</body>
+</html>
